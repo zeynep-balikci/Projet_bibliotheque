@@ -1,9 +1,8 @@
 #!/bin/env python3
 import sys
 from bibliotheque import Rapport
-"""
-Nous avons décidé d'utiliser notre propre module
-"""
+
+
 if __name__ == "__main__":
     conf="bibli.conf"
     if sys.argv[1]=="-c":
