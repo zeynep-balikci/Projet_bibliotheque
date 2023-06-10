@@ -3,7 +3,7 @@ Nous avions à notre disposition un dossier de 20 Go qui contenait plusieurs fic
 En lisant le chemin de ce dossier à partir d'un fichier "bibli.conf", et où il y avait également un dossier où déposer les fichiers que nous devions créer, la commande suivante dans le shell devrait générer "la bibliothèque" :
 
 ```
-bibli.py bibli.conf
+./bibli.py -c bibli.conf init
 ```
 
 ### La Classe Trier :
