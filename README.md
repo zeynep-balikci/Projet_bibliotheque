@@ -1,3 +1,11 @@
+Nous avions à notre disposition un dossier de 20 Go qui contenait plusieurs fichiers de différents types ainsi que quelques dossiers de fichiers MP4. 
+
+En lisant le chemin de ce dossier à partir d'un fichier "bibli.conf", et où il y avait également un dossier où déposer les fichiers que nous devions créer, la commande suivante dans le shell devrait générer "la bibliothèque" :
+
+```
+bibli.py bibli.conf
+```
+
 ### La Classe Trier :
 
 Elle prend en argument un dossier et crée une liste pour chaque type de fichiers contenu dans le dossier, i.e. , une liste avec tous les fichiers pdf , une liste avec tous les fichiers epub, une liste avec les fichiers zip et une liste avec le reste.
