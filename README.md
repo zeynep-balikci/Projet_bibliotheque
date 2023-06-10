@@ -19,6 +19,6 @@ La commande suivante met à jour les rapports que nous avons créer :
 ```
 
 Les rapports générés sont :
-- la liste des auteurs sous format txt, pdf et epub. le titre de ses livres et le nom du fichier de ces livres :
-- la liste des ouvrages sous format txt, pdf et epub.
+- la liste des auteurs (i.e. le nom de chaque auteur, le titre de ses livres et le nom du fichier de ces livres) sous format txt, pdf et epub.
+- la liste des ouvrages (i.e. le titre de chaque livre, l'auteur, la langue et le nom du fichier) sous format txt, pdf et epub.
 - la table des matières de chaque livre sous format txt, pdf et epub.
