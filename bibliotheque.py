@@ -265,8 +265,7 @@ class Rapport():
         """
         Cette classe met à jour les rapports précédemment générés, en tenant compte de l’état présent de la bibliothèque : générer la nouvelle liste des ouvrages,
         la nouvelle liste des auteurs, et générer les fichiers contenant la tables des matières des nouvelles livres en plus de supprimer ceux des livres disparus.
-        
-        ELLE NE PEUT PAS MODIFIER LES RAPPORTS DES LIVRES QUI ONT ETE MODIFIES DEPUIS LA DERNIERE GENERATION (nous n'avons pas compris la demande)
+       
         Chaque exécution d’une mise à jour consigne les opérations réalisées (créations, modifications et suppression) dans un fichier de log.
         Le fichier log est enregistré dans le dossier où se trouvre le fichier python exécuter.
         """     
